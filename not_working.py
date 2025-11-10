@@ -8,7 +8,7 @@ games_won = 0
 
 while play:
   guess_list = []
-  counter = 4
+  counter = 5
   magic_number = rd.randint(1, 100)
   print(magic_number)
   guess = int(input("Guess a number between 1 and 100: "))
